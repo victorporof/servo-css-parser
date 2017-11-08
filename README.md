@@ -1,4 +1,7 @@
 # servo-css-parser
+[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+[![Build Status](https://travis-ci.org/victorporof/servo-css-parser.svg?branch=master)](https://travis-ci.org/victorporof/servo-css-parser)
+
 Servo's CSS parser as a usable standalone crate
 
 ## Purpose
@@ -9,6 +12,8 @@ The main reusable libraries from Servo (which the `style` component depends on) 
 This crate exposes Servo's `style` component as a usable standalone crate, surfacing the CSS parsers and stylesheet-related types directly.
 
 ## How to use
+[Documentation](https://victorporof.github.io/servo-css-parser)
+
 This crate concerns itself strictly with parsing the CSS syntax. If you'd like to use some helper macros, or you're just looking to write RSX in your project, take a look at the [RSX compiler plugin](https://github.com/victorporof/rsx_compiler_plugin) instead.
 
 Otherwise, this to your `Cargo.toml` file:
