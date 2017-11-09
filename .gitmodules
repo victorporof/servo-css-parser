@@ -1,0 +1,3 @@
+[submodule "servo"]
+	path = servo
+	url = https://github.com/victorporof/servo.git

@@ -1,0 +1,19 @@
+[package]
+name = "servo-css-parser"
+version = "0.1.0"
+authors = ["Victor Porof <victor.porof@gmail.com>"]
+
+[lib]
+name = "servo_css_parser"
+
+[dependencies]
+cssparser = "0.23.0"
+selectors = { path = "servo/components/selectors" }
+servo_url = { path = "servo/components/url" }
+style = { path = "servo/components/style", features = ["servo"] }
+style_traits = { path = "servo/components/style_traits", features = ["servo"] }
+
+[dev-dependencies]
+parking_lot = "0.4"
+html5ever = "0.22"
+servo_atoms = { path = "servo/components/atoms" }
