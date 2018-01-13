@@ -8,12 +8,12 @@ name = "servo_css_parser"
 
 [dependencies]
 cssparser = "0.23.0"
-selectors = { path = "servo/components/selectors" }
-servo_url = { path = "servo/components/url" }
-style = { path = "servo/components/style", features = ["servo"] }
-style_traits = { path = "servo/components/style_traits", features = ["servo"] }
+selectors = { path = "servo/components/selectors", version = "0.19.0" }
+servo_url = { path = "servo/components/url", version = "0.0.1" }
+style = { path = "servo/components/style", version = "0.0.1", features = ["servo"] }
+style_traits = { path = "servo/components/style_traits", version = "0.0.1", features = ["servo"] }
 
 [dev-dependencies]
 html5ever = "0.22"
 parking_lot = "0.4"
-servo_atoms = { path = "servo/components/atoms" }
+servo_atoms = { path = "servo/components/atoms", version = "0.0.1" }
